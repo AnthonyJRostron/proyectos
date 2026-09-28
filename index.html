@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anthony Rostron — Proyectos & Bio</title>
-  <meta name="description" content="Landing page de Anthony Rostron: biografía y una selección de proyectos — herramientas para gasolineras, educación marina, salud, traducción y más.">
+  <meta name="description" content="Landing page de Anthony Rostron: biografía y una selección de proyectos — herramientas para gasolineras, educación marina, salud, soldadura, traducción y más.">
   <style>
     /* ===== RESET & VARIABLES ===== */
     *, *::before, *::after {
@@ -31,6 +31,8 @@
       --accent-6: #facc15;
       --accent-7: #a78bfa;
       --accent-8: #22d3ee;
+      --accent-9: #f87171;
+      --accent-10: #4ade80;
       --font-body: 'Segoe UI', system-ui, -apple-system, sans-serif;
       --radius: 16px;
       --radius-lg: 22px;
@@ -468,6 +470,8 @@
     .card:nth-child(6) { animation-delay: 0.3s; }
     .card:nth-child(7) { animation-delay: 0.35s; }
     .card:nth-child(8) { animation-delay: 0.4s; }
+    .card:nth-child(9) { animation-delay: 0.45s; }
+    .card:nth-child(10) { animation-delay: 0.5s; }
 
     .card::before {
       content: '';
@@ -822,7 +826,7 @@
         <h2 class="section-header__title">Proyectos públicos</h2>
         <p class="section-header__desc">
           Aplicaciones web creadas para resolver necesidades reales: educación,
-          operaciones, salud y comunicación.
+          operaciones, salud, soldadura y comunicación.
         </p>
       </div>
 
@@ -950,6 +954,37 @@
             auditiva con distintos acentos del inglés.
           </p>
           <a class="card__link" href="https://anthonyrostron.neocities.org/Reader" target="_blank" rel="noopener">
+            Visitar proyecto
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <!-- 9. Soldadura -->
+        <article class="card" style="--card-accent: var(--accent-9);">
+          <div class="card__icon">⚡</div>
+          <span class="card__tag">Taller & Oficio</span>
+          <h3 class="card__title">Soldadura — Guía de Parámetros</h3>
+          <p class="card__desc">
+            Guía rápida de soldadura con amperaje, voltaje, polaridad y velocidad de hilo
+            recomendados para MIG/MAG, TIG, electrodo y FCAW. Incluye tablas por diámetro
+            de hilo, cálculo de aporte térmico y consejos de seguridad.
+          </p>
+          <a class="card__link" href="https://anthonyjrostron.github.io/soldar/" target="_blank" rel="noopener">
+            Visitar proyecto
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <!-- 10. Chat -->
+        <article class="card" style="--card-accent: var(--accent-10);">
+          <div class="card__icon">💬</div>
+          <span class="card__tag">Comunicación</span>
+          <h3 class="card__title">Chat</h3>
+          <p class="card__desc">
+            Aplicación de chat ligera para comunicación en tiempo real. Interfaz sencilla
+            y directa, pensada para conversaciones rápidas sin complicaciones.
+          </p>
+          <a class="card__link" href="https://anthonyjrostron.github.io/chat/" target="_blank" rel="noopener">
             Visitar proyecto
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
